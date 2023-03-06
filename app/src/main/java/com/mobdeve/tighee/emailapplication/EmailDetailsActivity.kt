@@ -64,7 +64,6 @@ class EmailDetailsActivity : AppCompatActivity() {
                  *            our data / ArrayList
                  * */
                 val intent = Intent()
-
                 intent.putExtra(POSITION_KEY, position)
                 setResult(RESULT_OK, intent)
                 finish()

@@ -57,7 +57,6 @@ class MainActivity : AppCompatActivity() {
              * */
             val res = result.data!!.getIntExtra(EmailDetailsActivity.POSITION_KEY, 0)
             data.removeAt(res)
-
             recyclerView.adapter?.notifyItemRemoved(res)
 
         }
